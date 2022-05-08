@@ -3,6 +3,7 @@
     "description": "Common module to test publishing",
     "version": "v0.0.1",
     "type": "laravel-module",
+    "license": "MIT",
     "authors": [
         {
             "name": "Digant Shah",
@@ -11,6 +12,9 @@
     ],
     "support": {
         "email": "phpdeveloper200288@gmail.com"
+    },
+    "require": {
+        "phpdeveloper200288/common-module": "v0.0.1"
     },
     "extra": {
         "laravel": {
