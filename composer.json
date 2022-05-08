@@ -1,0 +1,30 @@
+{
+    "name": "phpdeveloper200288/common-module",
+    "description": "Common module to test publishing",
+    "version": "v0.0.1",
+    "type": "laravel-module",
+    "authors": [
+        {
+            "name": "Digant Shah",
+            "email": "phpdeveloper200288@gmail.com"
+        }
+    ],
+    "support": {
+        "email": "phpdeveloper200288@gmail.com"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Common\\Providers\\CommonServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Common\\": ""
+        }
+    }
+}
