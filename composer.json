@@ -13,9 +13,6 @@
     "support": {
         "email": "phpdeveloper200288@gmail.com"
     },
-    "require": {
-        "phpdeveloper200288/common-module": "v0.0.1"
-    },
     "extra": {
         "laravel": {
             "providers": [
